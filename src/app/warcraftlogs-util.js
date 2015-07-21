@@ -1,0 +1,3 @@
+Warcraftlogs = {};
+
+module.exports = Warcraftlogs;
