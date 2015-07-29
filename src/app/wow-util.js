@@ -1,3 +1,4 @@
+'use strict';
 
 var Wow = {};
 
@@ -24,11 +25,33 @@ Wow.BONUS = {
 }
 
 Wow.REGIONS = {
-  'us': 'Americas',
-  'eu': 'Europe',
-  'cn': 'Asia',
-  'kr': 'Korea',
-  'tw': 'Taiwan'
+  'us': 'Americas', // usually default
+  'eu': 'Europe'
 };
+
+/**
+ * @brief Returns a list of character names from the roster
+ */
+Wow.parseRoster = function (roster, rankLimit) {
+
+  var eligibleMembers = [];
+
+  if (roster.members) {
+    let members = roster.members;
+
+    if ('number' === typeof rankLimit) {
+      members = members.filter( function (member) {
+        return member.rank <= rankLimit;
+      });
+    }
+
+    eligibleMembers = members.map(function (member) {
+      return member.character.name;
+    });
+  }
+
+  return eligibleMembers;
+};
+
 
 module.exports = Wow;
