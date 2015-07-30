@@ -28,7 +28,7 @@ let GuildSummary = React.createClass({
         let href = "http://www.wowhead.com/item=" + i.itemId;
         return (
           <div>
-            <a target="_blank" href={href} class="q4">{i.timestamp}</a>
+            <a target="_blank" href={href} rel={i.bonusLists.join(':')} class="q4">{i.timestamp}</a>
             <br/>
           </div>
         );
@@ -97,19 +97,17 @@ let GuildSummary = React.createClass({
 
   ILVL_THRESHOLD: 680, //TODO this would have to be hard-coded per raid tier
 
-  getItemLevel: function () {
-
+  handleItemLevelError: function(characterName, responseData) {
+    console.log('Could not get ilvl from ' + characterName + ': ' + JSON.stringify(responseData) + ', so character is removed from output. ');
+    let newData = self.state.data;
+    delete newData[characterName];
+    self.setState({data: newData});
   },
 
   getCharacterData: function (region, realm, characterName) {
-    // 1. ITEM LEVEL
-    let handleItemLevelError = function(characterName, responseData) {
-      console.log('Could not get ilvl from ' + characterName + ': ' + JSON.stringify(responseData) + ', so character is removed from output. ');
-      let newData = self.state.data;
-      delete newData[characterName];
-      self.setState({data: newData});
-    };
+    let self = this;
 
+    // 1. ITEM LEVEL
     $.getJSON(
       Server.buildUrl('items', region, realm, characterName),
       function(responseData) {
@@ -132,7 +130,7 @@ let GuildSummary = React.createClass({
           let lootPath = Server.mergeUrlQuery(
             Server.buildUrl('feed', region, realm, characterName),
             {
-              daysAgo: p.days,
+              daysAgo: self.props.days,
               filter: 'loot'
             }
           );
@@ -140,23 +138,27 @@ let GuildSummary = React.createClass({
           $.getJSON(
             lootPath,
             function(responseData) {
-              if (Array.isArray(responseData.feed)) {
+              let lootList = responseData.feed;
+              if (Array.isArray(lootList)) {
                 // Filter raid loot
-                let loot = responseData.feed.filter(function(element) {
+                let loot = lootList.filter(function(element) {
                   //TODO
                   return true;
                 });
                 //TODO
+
+                dude.items = lootList;
+                self.setState({data: newData});
               }
             }
           );
         }
         else {
-          handleItemLevelError(characterName, responseData);
+          self.handleItemLevelError(characterName, responseData);
         }
       }
     ).fail(function(response) {
-      handleItemLevelError(characterName, response);
+      self.handleItemLevelError(characterName, response);
     });
   },
 
@@ -186,9 +188,9 @@ let GuildSummary = React.createClass({
 
     self.setState({data: data});
 
-
+    // Populate the character information asynchronously
     for (let characterName in data) {
-      getCharacterData(region, realm, characterName);
+      this.getCharacterData(region, realm, characterName);
     }
   },
 
