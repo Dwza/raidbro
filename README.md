@@ -33,3 +33,9 @@ Copies all of the files from /src/www to the build folder.
 
 ##[gulp_starter](https://github.com/greypants/gulp-starter)
 A useful repository that explains how many of gulp's features work and contains an example project to get familiar with it. We use this example to construct our own project.
+
+
+## Notes
+
+Sometimes when we add new links, we gotta refreshLinks()
+http://www.wowhead.com/forums&topic=227864/dynamic-wowhead-tooltips

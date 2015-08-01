@@ -67,6 +67,10 @@ let Main = React.createClass({
     $.getJSON(path, function(data) {
       let roster = WowUtil.parseRoster(data, 4);
       self.setState({roster: roster});
+    })
+    .fail(function(response){
+      console.log('Failed GET ' + path);
+      console.log(response);
     });
 
     this.setState({

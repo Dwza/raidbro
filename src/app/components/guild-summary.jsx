@@ -28,7 +28,7 @@ let GuildSummary = React.createClass({
         let href = "http://www.wowhead.com/item=" + i.itemId;
         return (
           <div>
-            <a target="_blank" href={href} rel={i.bonusLists.join(':')} class="q4">{i.timestamp}</a>
+            <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a> {i.context}
             <br/>
           </div>
         );
@@ -246,6 +246,17 @@ let GuildSummary = React.createClass({
         {table}
       </div>
     );
+  },
+
+  componentDidUpdate: function() {
+    // Check if there are wowhead links that have not been processed.
+    var links = $('a').toArray().filter(function(element) {
+      return element.hasAttribute('href') && -1 !== element.href.indexOf('wowhead') && !element.hasAttribute('style');
+    });
+
+    if (links && 0 < links.length) {
+      $WowheadPower.refreshLinks();
+    }
   },
 
   _onRowSelection: function() {

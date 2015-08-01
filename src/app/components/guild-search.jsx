@@ -81,18 +81,15 @@ let GuildSearch = React.createClass({
   },
 
   _handleGuildChange: function (event) {
-    this.state.guild = event.target.value;
-    console.log('guild name changed: ' + this.state.guild);
+    this.setState({guild: event.target.value});
   },
 
   _handleRealmChange: function (event) {
-    this.state.realm = event.target.value;
-    console.log('realm changed: ' + this.state.realm);
+    this.setState({realm: event.target.value});
   },
 
   _handleRegionChange: function (event) {
-    this.state.origin = event.target.value.origin;
-    console.log("region changed:" + this.state.origin);
+    this.setState({origin: event.target.value.origin});
   }
 
 });
