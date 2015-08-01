@@ -56,7 +56,6 @@ let Main = React.createClass({
 
     //TODO allow only list of realms from us.api.battle.net/wow/realm/status
     let guildSlug = terms.guild;
-    guildSlug = guildSlug.replace(' ', '_');
 
     // Get guild roster
     let path = Server.buildUrl('roster', region, realmSlug, guildSlug);
