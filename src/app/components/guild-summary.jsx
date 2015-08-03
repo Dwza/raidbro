@@ -23,6 +23,13 @@ let GuildSummary = React.createClass({
       let ilvl = info.averageItemLevel + '/' + info.averageItemLevelEquipped;
 
       let attendance = info.attendance;
+      if (this.state.attendanceReady) {
+        let countShowings = this.state.attendance[name];
+        if ('number' === typeof countShowings && 0 <= countShowings) {
+          attendance = countShowings + '/' + this.state.attendance.totalShowings;
+          //TODO color code attendance
+        }
+      }
 
       let loot = info.items.map(function (i) {
         let href = "http://www.wowhead.com/item=" + i.itemId;
@@ -39,7 +46,7 @@ let GuildSummary = React.createClass({
         ilvl: {content: ilvl},
         attendance: {content: attendance},
         loot: {content: loot}
-      })
+      });
     }
 
     return rowData;
@@ -176,12 +183,10 @@ let GuildSummary = React.createClass({
   getJsonSync: function (generatePath, processResponse, finish, list) {
     let self = this;
 
-    console.log('remaining list: ' + JSON.stringify(list));
     if (!list.length) {
       finish();
       return;
     }
-
 
     let current = list.shift(); // remove 1st element
 
@@ -249,7 +254,7 @@ let GuildSummary = React.createClass({
             function onFinish() {
               console.log('attendance: ' + JSON.stringify(attendance));
               self.setState({
-                attendanceReady: true,
+                attendanceReady: true, // Means attendance is ready.
                 attendance: attendance
               });
             },
