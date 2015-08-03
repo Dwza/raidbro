@@ -22,7 +22,7 @@ let GuildSummary = React.createClass({
 
       let ilvl = info.averageItemLevel + '/' + info.averageItemLevelEquipped;
 
-      let attendance = info.attendance + '%';
+      let attendance = info.attendance;
 
       let loot = info.items.map(function (i) {
         let href = "http://www.wowhead.com/item=" + i.itemId;
@@ -45,7 +45,14 @@ let GuildSummary = React.createClass({
     return rowData;
   },
 
+
   getInitialState: function() {
+    this.getAttendance(
+      this.props.region,
+      this.props.realm,
+      this.props.guild
+    );
+
     return {
       fixedHeader: true,
       fixedFooter: false,
@@ -58,6 +65,7 @@ let GuildSummary = React.createClass({
       data: {}
     };
   },
+
 
   componentDidMount: function () {
 
@@ -94,6 +102,7 @@ let GuildSummary = React.createClass({
 
     this.setState({data: data});
   },
+
 
   ILVL_THRESHOLD: 680, //TODO this would have to be hard-coded per raid tier
 
@@ -162,28 +171,121 @@ let GuildSummary = React.createClass({
     });
   },
 
+
+  // Recurse through a list of reports
+  getJsonSync: function (generatePath, processResponse, finish, list) {
+    let self = this;
+
+    console.log('remaining list: ' + JSON.stringify(list));
+    if (!list.length) {
+      finish();
+      return;
+    }
+
+
+    let current = list.shift(); // remove 1st element
+
+    $.getJSON(
+      generatePath(current),
+      function (responseData) {
+        processResponse(responseData);
+        self.getJsonSync(generatePath, processResponse, finish, list);
+      }
+    );
+  },
+
+
+  getAttendance: function(region, realm, guildName) {
+    let self = this;
+
+    // Attendance is based on data from warcraftlogs.com
+    let path = Server.mergeUrlQuery(
+      Server.buildUrl('reports', region, realm, guildName),
+      {
+        daysAgo: self.props.days
+      }
+    );
+    console.log('GET ' + path);
+    $.getJSON(
+      path,
+      function(responseData) {
+        if (Array.isArray(responseData)) {
+
+          let reports = responseData.filter(function (element) {
+            // TODO dynamically verify the correct zone (i.e. current tier's raid)
+            return 'Hellfire Citadel' === element.title;
+          });
+
+          console.log('Reports ' + JSON.stringify(responseData));
+
+          let attendance = {
+            // 'Slimshady': 3 nights attended
+            totalShowings: reports.length // count of all nights logged
+          };
+
+          self.getJsonSync(
+            function generatePath(report) {
+              let path = Server.buildUrl('fights', report.id);
+              console.log('GET ' + path);
+              return path;
+            },
+            function onResponse(responseData) {
+              let attendees = responseData.friendlies;
+              console.log(responseData);
+              if (attendees && Array.isArray(attendees)) {
+                attendees.forEach(function (attendee) {
+                  let name = attendee.name;
+                  if ('string' === typeof name) {
+                    if (attendance[name]) {
+                      attendance[name]++;
+                    }
+                    else {
+                      attendance[name] = 1;
+                    }
+                  }
+                });
+              }
+            },
+            function onFinish() {
+              console.log('attendance: ' + JSON.stringify(attendance));
+              self.setState({
+                attendanceReady: true,
+                attendance: attendance
+              });
+            },
+            reports
+          );
+        }
+      }
+    )
+    .fail(function(response){
+      console.log(response);
+    });
+  },
+
+
   // Called whenever new props are set, except the initial time
   componentWillReceiveProps: function (nextProps) {
     self = this;
 
     let p = nextProps;
-    console.log(p)
     let realm = p.realm;
     let region = p.region;
     let roster = p.roster;
+    let guild = p.guild;
 
     let data = {};
     roster.forEach(function (element, index, array) {
-      // element is the character's name
+      let characterName = element;
 
-      // Initial state is empty, waiting for responses to update data
+      // Initialize each guild member's info
       let dude = {
         "averageItemLevel": 0,
         "averageItemLevelEquipped": 0,
         "attendance": 0,
         items: []
       };
-      data[element] = dude;
+      data[characterName] = dude;
     });
 
     self.setState({data: data});
@@ -193,6 +295,7 @@ let GuildSummary = React.createClass({
       this.getCharacterData(region, realm, characterName);
     }
   },
+
 
   render: function() {
 

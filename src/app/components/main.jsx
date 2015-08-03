@@ -34,7 +34,7 @@ let Main = React.createClass({
     // Defaults
     let state = {
       roster: [],
-      days: 2,
+      days: 7, //TODO make dynamic
       guild: 'nightfall',
       realm: 'emerald-dream',
       region: 'us'
