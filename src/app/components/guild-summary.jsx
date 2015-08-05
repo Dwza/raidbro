@@ -24,22 +24,33 @@ let GuildSummary = React.createClass({
 
       let attendance = info.attendance;
       if (this.state.attendanceReady) {
+        let totalShowings = this.state.attendance.totalShowings;
         let countShowings = this.state.attendance[name];
         if ('number' === typeof countShowings && 0 <= countShowings) {
-          attendance = countShowings + '/' + this.state.attendance.totalShowings;
+          attendance = countShowings + '/' + totalShowings;
+          if (countShowings === totalShowings) {
+            attendance = <span style={{color: 'green'}}> {attendance} </span>;
+          }
           //TODO color code attendance
         }
       }
 
-      let loot = info.items.map(function (i) {
-        let href = "http://www.wowhead.com/item=" + i.itemId;
-        return (
-          <div>
-            <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a> {i.context}
-            <br/>
-          </div>
-        );
-      });
+      let loot = info.items
+        // Filter out non-raid drops
+        .filter(function(i) {
+          let context = i.context;
+          return 'string' === typeof context && -1 !== context.indexOf('raid') && -1 === context.indexOf('finder');
+        })
+        .map(function (i) {
+          let href = "http://www.wowhead.com/item=" + i.itemId;
+          return (
+            <div>
+              <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a> {i.context}
+              <br/>
+            </div>
+          );
+        })
+        ;
 
       rowData.push({
         name: {content: nameLink},
@@ -76,7 +87,7 @@ let GuildSummary = React.createClass({
 
   componentDidMount: function () {
 
-    // sample
+    // initial sample
     let data = {
       'Ojbect': {
         "averageItemLevel": 705,
@@ -287,7 +298,7 @@ let GuildSummary = React.createClass({
       let dude = {
         "averageItemLevel": 0,
         "averageItemLevelEquipped": 0,
-        "attendance": 0,
+        "attendance": '',
         items: []
       };
       data[characterName] = dude;
