@@ -31,13 +31,18 @@ let Main = React.createClass({
 
   getInitialState: function() {
 
+    let days = localStorage.getItem('days') || 7;
+    let guild = localStorage.getItem('guild') || 'limit';
+    let realm = localStorage.getItem('realm') || 'illidan';
+    let region = localStorage.getItem('region') || 'us';
+
     // Defaults
     let state = {
       roster: [],
-      days: 7, //TODO make dynamic
-      guild: 'nightfall',
-      realm: 'emerald-dream',
-      region: 'us'
+      days: days,
+      guild: guild,
+      realm: realm,
+      region: region
     };
 
     return state;
@@ -46,6 +51,12 @@ let Main = React.createClass({
   //TODO how is WoW armory able to get an item's bonusList (warforged, socket, ..) e.g. http://us.battle.net/wow/en/character/emerald-dream/Ojbect/feed
 
   _handleGuildSearch: function (terms) {
+
+    console.log('sessionStore: ');
+    console.log(sessionStorage);
+    console.log('localStorage');
+    console.log(localStorage);
+
     // User has submitted a guild, now search for it by querying our API
 
     let region = terms.region;
@@ -95,7 +106,11 @@ let Main = React.createClass({
 
     return (
       <div style={containerStyle}>
-        <GuildSearch onSearch={this._handleGuildSearch} />
+        <GuildSearch
+          guild={this.state.guild}
+          realm={this.state.realm}
+          region={this.state.region}
+          onSearch={this._handleGuildSearch} />
         {summary}
       </div>
     );

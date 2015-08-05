@@ -17,17 +17,17 @@ let GuildSearch = React.createClass({
     // Defaults
     let state = {
       regions: [],
-      guild: 'nightfall',
-      realm: 'emerald-dream',
-      origin: 'us'
+      guild: this.props.guild,
+      realm: this.props.realm,
+      region: this.props.region
     }
 
     let i = 0;
-    for (let origin in REGIONS) {
-      let regionName = REGIONS[origin];
+    for (let region in REGIONS) {
+      let regionName = REGIONS[region];
       state.regions.push({
         id: i,
-        origin: origin,
+        region: region,
         name: regionName
       });
       i++;
@@ -42,7 +42,7 @@ let GuildSearch = React.createClass({
     let onSearch = this.props.onSearch.bind(null, {
       guild: this.state.guild,
       realm: this.state.realm,
-      region: this.state.origin
+      region: this.state.region
     });
 
     return (
@@ -50,7 +50,7 @@ let GuildSearch = React.createClass({
         <h1>Search for your guild</h1>
 
         <TextField
-          defaultValue="Nightfall"
+          defaultValue={this.state.guild}
           hintText="example: Nightfall"
           floatingLabelText="Guild"
           onChange={this._handleGuildChange} />
@@ -58,7 +58,7 @@ let GuildSearch = React.createClass({
         <br />
 
         <TextField
-          defaultValue="Emerald Dream"
+          defaultValue={this.state.realm}
           hintText="example: Emerald Dream"
           floatingLabelText="Realm"
           onChange={this._handleRealmChange} />
@@ -68,7 +68,8 @@ let GuildSearch = React.createClass({
         <SelectField
           onChange={this._handleRegionChange}
           floatingLabelText="Region"
-          valueMember="id"
+          valueMember="region"
+          value={this.state.region}
           displayMember="name"
           menuItems={this.state.regions} />
 
@@ -81,15 +82,27 @@ let GuildSearch = React.createClass({
   },
 
   _handleGuildChange: function (event) {
-    this.setState({guild: event.target.value});
+    let newGuild = event.target.value;
+    localStorage.setItem('guild', newGuild);
+    this.setState({guild: newGuild});
+
+    console.log("New guild: " + newGuild);
   },
 
   _handleRealmChange: function (event) {
-    this.setState({realm: event.target.value});
+    let newRealm = event.target.value;
+    localStorage.setItem('realm', newRealm);
+    this.setState({realm: newRealm});
+
+    console.log("New realm: " + newRealm);
   },
 
   _handleRegionChange: function (event) {
-    this.setState({origin: event.target.value.origin});
+    let newRegion = event.target.value;
+    localStorage.setItem('region', newRegion);
+    this.setState({region: newRegion});
+
+    console.log("New region: " + newRegion);
   }
 
 });
