@@ -51,12 +51,6 @@ let Main = React.createClass({
   //TODO how is WoW armory able to get an item's bonusList (warforged, socket, ..) e.g. http://us.battle.net/wow/en/character/emerald-dream/Ojbect/feed
 
   _handleGuildSearch: function (terms) {
-
-    console.log('sessionStore: ');
-    console.log(sessionStorage);
-    console.log('localStorage');
-    console.log(localStorage);
-
     // User has submitted a guild, now search for it by querying our API
 
     let region = terms.region;
@@ -96,22 +90,24 @@ let Main = React.createClass({
       textAlign: 'center'
     };
 
-    let summary = React.createElement(GuildSummary, {
-      roster: this.state.roster,
-      days: this.state.days,
-      region: this.state.region,
-      guild: this.state.guild,
-      realm: this.state.realm
-    });
-
     return (
       <div style={containerStyle}>
+
         <GuildSearch
+          ref="search"
           guild={this.state.guild}
           realm={this.state.realm}
           region={this.state.region}
           onSearch={this._handleGuildSearch} />
-        {summary}
+
+        <GuildSummary
+          ref='summary'
+          roster={this.state.roster}
+          days={this.state.days}
+          guild={this.state.guild}
+          realm={this.state.realm}
+          region={this.state.region} />
+
       </div>
     );
   }
