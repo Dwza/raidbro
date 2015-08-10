@@ -2,11 +2,15 @@ let React = require('react');
 let mui = require('material-ui');
 
 //TODO use a custom table so we can render rows and cells separately.
-let Table = mui.Table;
+let {
+  LinearProgress,
+  Table
+} = require('material-ui');
 
 let Server = require('../server');
 let WowUtil = require('../wow-util');
 
+let MILLISECONDS_IN_DAY = 24 * 60 * 60 * 1000;
 
 let GuildSummary = React.createClass({
 
@@ -42,10 +46,12 @@ let GuildSummary = React.createClass({
           return 'string' === typeof context && -1 !== context.indexOf('raid') && -1 === context.indexOf('finder');
         })
         .map(function (i) {
+          console.log('AAA' + i)
           let href = "http://www.wowhead.com/item=" + i.itemId;
           return (
             <div>
-              <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a> {i.context}
+              <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a>
+              {i.age} days ago
               <br/>
             </div>
           );
@@ -65,13 +71,9 @@ let GuildSummary = React.createClass({
 
 
   getInitialState: function() {
-    this.getAttendance(
-      this.props.region,
-      this.props.realm,
-      this.props.guild
-    );
-
     return {
+      progress: 0,
+
       fixedHeader: true,
       fixedFooter: false,
       stripedRows: true,
@@ -86,39 +88,45 @@ let GuildSummary = React.createClass({
 
 
   componentDidMount: function () {
+    console.log('componentDidMount');
+
+    this.getAttendance(
+      this.props.region,
+      this.props.realm,
+      this.props.guild
+    );
 
     // initial sample
     let data = {
-      'Ojbect': {
+      'Player1': {
         "averageItemLevel": 705,
         "averageItemLevelEquipped": 700,
-        "attendance": 84,
+        "attendance": '3/5',
         items: [
           {
             "type": "LOOT",
-            "timestamp": 1438144794000,
-            "itemId": 124635,
-            "context": "vendor",
+            "timestamp": 1438396370000,
+            "itemId": 109815,
+            "context": "dungeon-mythic",
             "bonusLists": [
-            621,
-            649
+                642,
+                643
             ]
-            },
-            {
+          },
+          {
             "type": "LOOT",
-            "timestamp": 1438144173000,
-            "itemId": 124638,
-            "context": "quest-reward",
-            "bonusLists": [
-            621,
-            650
-            ]
+            "timestamp": 1438115240000,
+            "itemId": 125228,
+            "context": "vendor",
+            "bonusLists": []
           }
         ]
       }
     };
 
     this.setState({data: data});
+
+    this.getData(this.props);
   },
 
 
@@ -167,12 +175,24 @@ let GuildSummary = React.createClass({
             function(responseData) {
               let lootList = responseData.feed;
               if (Array.isArray(lootList)) {
-                // Filter raid loot
-                let loot = lootList.filter(function(element) {
-                  //TODO
-                  return true;
-                });
-                //TODO
+
+                let now = Date.now();
+
+                let loot = lootList
+                  // Filter raid loot
+                  .filter(function(element) {
+                    //TODO
+                    return true;
+                  })
+                  // Get the date that item was acquired
+                  .map(function(element) {
+                    if (element.timestamp) {
+                      let age = (now - element.timestamp) / MILLISECONDS_IN_DAY;
+                      element.age = Math.round(age);
+                    }
+                    return element;
+                  })
+                  ;
 
                 dude.items = lootList;
                 self.setState({data: newData});
@@ -187,6 +207,38 @@ let GuildSummary = React.createClass({
     ).fail(function(response) {
       self.handleItemLevelError(characterName, response);
     });
+  },
+
+  getData: function (props) {
+    self = this;
+
+    let p = props;
+    let realm = p.realm;
+    let region = p.region;
+    let roster = p.roster;
+    let guild = p.guild;
+
+    let data = {};
+    roster.forEach(function (element, index, array) {
+      let characterName = element;
+
+      // Initialize each guild member's info
+      let dude = {
+        "averageItemLevel": 0,
+        "averageItemLevelEquipped": 0,
+        "attendance": '',
+        items: []
+      };
+      data[characterName] = dude;
+    });
+
+    self.setState({data: data});
+
+    // Populate the character information asynchronously
+    for (let characterName in data) {
+      this.getCharacterData(region, realm, characterName);
+    }
+
   },
 
 
@@ -229,10 +281,10 @@ let GuildSummary = React.createClass({
 
           let reports = responseData.filter(function (element) {
             // TODO dynamically verify the correct zone (i.e. current tier's raid)
-            return 'Hellfire Citadel' === element.title;
+            return 'Hellfire Citadel' === element.title || 8 === element.zone;
           });
 
-          console.log('Reports ' + JSON.stringify(responseData));
+          console.log('Reports ' + JSON.stringify(reports));
 
           let attendance = {
             // 'Slimshady': 3 nights attended
@@ -281,35 +333,10 @@ let GuildSummary = React.createClass({
 
 
   // Called whenever new props are set, except the initial time
-  componentWillReceiveProps: function (nextProps) {
-    self = this;
+  componentWillReceiveProps: function (newProps) {
+    console.log('componentWillReceiveProps ' + JSON.stringify(newProps));
 
-    let p = nextProps;
-    let realm = p.realm;
-    let region = p.region;
-    let roster = p.roster;
-    let guild = p.guild;
-
-    let data = {};
-    roster.forEach(function (element, index, array) {
-      let characterName = element;
-
-      // Initialize each guild member's info
-      let dude = {
-        "averageItemLevel": 0,
-        "averageItemLevelEquipped": 0,
-        "attendance": '',
-        items: []
-      };
-      data[characterName] = dude;
-    });
-
-    self.setState({data: data});
-
-    // Populate the character information asynchronously
-    for (let characterName in data) {
-      this.getCharacterData(region, realm, characterName);
-    }
+    this.getData(newProps);
   },
 
 
@@ -345,7 +372,7 @@ let GuildSummary = React.createClass({
       }
     };
 
-    let colOrder = ['attendance', 'name', 'ilvl', 'loot'];
+    let colOrder = ['name', 'ilvl', 'loot', 'attendance'];
 
     let table = React.createElement(Table, {
       headerColumns: headerCols,
@@ -360,9 +387,26 @@ let GuildSummary = React.createClass({
       onRowSelection: this._onRowSelection
     });
 
+
+    let progressBar = null;
+    if ('number' === typeof this.state.progress) {
+      progressBar =
+        <LinearProgress
+          ref="progress"
+          value={this.state.progress}
+          mode="determinate" />;
+    }
+
+
     return (
       <div>
+
+        <h1> {'<' + this.props.guild + '>'}</h1>
+
+        {progressBar}
+
         {table}
+
       </div>
     );
   },
@@ -379,7 +423,7 @@ let GuildSummary = React.createClass({
   },
 
   _onRowSelection: function() {
-    // Do nothing at the moment.
+    //TODO
     console.log('_onRowSelection');
   }
 

@@ -47,8 +47,6 @@ let GuildSearch = React.createClass({
 
     return (
       <div>
-        <h1>Search for your guild</h1>
-
         <TextField
           defaultValue={this.state.guild}
           hintText="example: Nightfall"
@@ -83,26 +81,17 @@ let GuildSearch = React.createClass({
 
   _handleGuildChange: function (event) {
     let newGuild = event.target.value;
-    localStorage.setItem('guild', newGuild);
     this.setState({guild: newGuild});
-
-    console.log("New guild: " + newGuild);
   },
 
   _handleRealmChange: function (event) {
     let newRealm = event.target.value;
-    localStorage.setItem('realm', newRealm);
     this.setState({realm: newRealm});
-
-    console.log("New realm: " + newRealm);
   },
 
   _handleRegionChange: function (event) {
     let newRegion = event.target.value;
-    localStorage.setItem('region', newRegion);
     this.setState({region: newRegion});
-
-    console.log("New region: " + newRegion);
   }
 
 });

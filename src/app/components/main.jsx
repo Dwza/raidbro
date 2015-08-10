@@ -37,15 +37,15 @@ let Main = React.createClass({
 
   componentWillMount: function() {
     ThemeManager.setPalette({
-      accent1Color: Colors.deepOrange500
+      accent1Color: Colors.indigo400
     });
   },
 
   getInitialState: function() {
 
     let days = localStorage.getItem('days') || 7;
-    let guild = localStorage.getItem('guild') || 'limit';
-    let realm = localStorage.getItem('realm') || 'illidan';
+    let guild = localStorage.getItem('guild') || 'Midwinter';
+    let realm = localStorage.getItem('realm') || 'Sargeras';
     let region = localStorage.getItem('region') || 'us';
 
     // Defaults
@@ -67,13 +67,14 @@ let Main = React.createClass({
     // User has submitted a guild, now search for it by querying our API
 
     let region = terms.region;
+    let guild = terms.guild.capitalize();
+    let realm = terms.realm.capitalize();
 
     // inflect into a compatible string for WoW API, e.g. Lightning's Blade -> lightnings-blade
-    let realmSlug = terms.realm;
-    realmSlug = realmSlug.replace(/ /g, '-').replace(/'/g, '');
+    let realmSlug = realm.replace(/ /g, '-').replace(/'/g, '');
 
     //TODO allow only list of realms from us.api.battle.net/wow/realm/status
-    let guildSlug = terms.guild;
+    let guildSlug = guild;
 
     // Get guild roster
     let path = Server.buildUrl('roster', region, realmSlug, guildSlug);
@@ -93,24 +94,15 @@ let Main = React.createClass({
         region: region
       });
     })
-    .fail(function(response){
+    .fail(function(response) {
       console.log('Failed GET ' + path);
       console.log(response);
     });
-  },
 
-
-  _onLeftIconButtonTouchTap: function (event) {
-    console.log('aihewot' + event);
-
-  },
-
-  _onRightIconButtonTouchTap: function(event) {
-    let bool = this.state.isSearchVisible;
-    console.log('touched ' + bool);
-    this.setState({
-      isSearchVisible: !bool
-    });
+    // Save last search in browser storage
+    localStorage.setItem('guild', guild);
+    localStorage.setItem('realm', realm);
+    localStorage.setItem('region', region);
   },
 
   render: function() {
@@ -119,7 +111,7 @@ let Main = React.createClass({
       textAlign: 'center'
     };
 
-    let searchBox = null;
+
     let summaryBox = null;
     if (this.state.isSummaryVisible) {
       summaryBox =
@@ -131,6 +123,8 @@ let Main = React.createClass({
           realm={this.state.realm}
           region={this.state.region} />;
     }
+
+    let searchBox = null;
     if (this.state.isSearchVisible) {
       searchBox =
         <GuildSearch
