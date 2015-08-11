@@ -93,6 +93,7 @@ let Main = React.createClass({
       let roster = WowUtil.parseRoster(data, 4);
 
       self.setState({
+        isSearching: false,
         isSearchVisible: false,
         isSummaryVisible: true,
         roster: roster,
@@ -165,6 +166,7 @@ let Main = React.createClass({
       <div ref="main" style={containerStyle}>
 
         {searchBox}
+
         {searchInProgress}
 
         {summaryBox}
@@ -183,7 +185,6 @@ let Main = React.createClass({
   },
 
   _handleSearchAgain: function () {
-    console.log("Closing snackbar, showing search. ");
     this.setState({
       isSearchVisible: true
     });
@@ -191,11 +192,9 @@ let Main = React.createClass({
 
   componentDidUpdate: function() {
     if (this.state.isSearchVisible) {
-      console.log("Hiding snackbar");
       this.refs.searchToggle.dismiss();
     }
     else {
-      console.log("Showing snackbar");
       this.refs.searchToggle.show();
     }
   }

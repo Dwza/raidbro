@@ -48,6 +48,8 @@ let GuildSearch = React.createClass({
     return (
       <div>
         <TextField
+          autoFocus
+          onEnterKeyDown={onSearch}
           defaultValue={this.state.guild}
           hintText="example: Nightfall"
           floatingLabelText="Guild"
@@ -56,6 +58,7 @@ let GuildSearch = React.createClass({
         <br />
 
         <TextField
+          onEnterKeyDown={onSearch}
           defaultValue={this.state.realm}
           hintText="example: Emerald Dream"
           floatingLabelText="Realm"
@@ -64,6 +67,7 @@ let GuildSearch = React.createClass({
         <br />
 
         <SelectField
+          onEnterKeyDown={onSearch}
           onChange={this._handleRegionChange}
           floatingLabelText="Region"
           valueMember="region"

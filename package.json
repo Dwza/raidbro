@@ -1,10 +1,10 @@
 {
-  "name": "material-ui-example",
-  "version": "0.8.0",
-  "description": "Sample project that uses material-ui",
+  "name": "raidbro",
+  "version": "0.1.0",
+  "description": "RaidBro helps World of Warcraft guilds and players by providing useful information in raid and PvP encounters",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/sylvanknave/raidbro.git"
   },
   "scripts": {
     "start": "gulp"

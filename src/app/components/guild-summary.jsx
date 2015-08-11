@@ -363,8 +363,6 @@ let GuildSummary = React.createClass({
 
   // Called whenever new props are set, except the initial time
   componentWillReceiveProps: function (newProps) {
-    console.log('componentWillReceiveProps ' + JSON.stringify(newProps));
-
     this.getData(newProps);
   },
 
