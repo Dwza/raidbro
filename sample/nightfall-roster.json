@@ -1,0 +1,4415 @@
+{
+    "lastModified": 1437518428000,
+    "name": "Nightfall",
+    "realm": "Emerald Dream",
+    "battlegroup": "Shadowburn",
+    "level": 25,
+    "side": 1,
+    "achievementPoints": 1175,
+    "members": [{
+        "character": {
+            "name": "Marcrusio",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8265,
+            "thumbnail": "emerald-dream/81/13769041-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Deadguard",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8265,
+            "thumbnail": "emerald-dream/110/45355374-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Slottered",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13950,
+            "thumbnail": "emerald-dream/169/88350889-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Branchofsin",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 2975,
+            "thumbnail": "emerald-dream/183/90214071-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Volkael",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 8,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 3280,
+            "thumbnail": "emerald-dream/23/90790423-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Volyx",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8515,
+            "thumbnail": "emerald-dream/145/92481681-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Slottpocket",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13975,
+            "thumbnail": "emerald-dream/19/93353491-avatar.jpg",
+            "spec": {
+                "name": "Demonology",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-demonology",
+                "icon": "spell_shadow_metamorphosis",
+                "description": "A master of demonic magic who transforms into a demon and compels demonic powers to aid him.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Qinch",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 95,
+            "achievementPoints": 2945,
+            "thumbnail": "emerald-dream/47/94764335-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kundera",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 11720,
+            "thumbnail": "emerald-dream/172/94980268-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Break",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 9,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 12735,
+            "thumbnail": "emerald-dream/190/96239806-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Meerganthias",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 8020,
+            "thumbnail": "emerald-dream/141/97635469-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Drcameltotem",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/167/97903015-avatar.jpg",
+            "spec": {
+                "name": "Enhancement",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-enhancement",
+                "icon": "spell_shaman_improvedstormstrike",
+                "description": "A totemic warrior who strikes foes with weapons imbued with elemental power.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Meerganthym",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8150,
+            "thumbnail": "emerald-dream/160/98438304-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 1
+    }, {
+        "character": {
+            "name": "Meerganthh",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8150,
+            "thumbnail": "emerald-dream/63/102558015-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Calhandras",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4550,
+            "thumbnail": "emerald-dream/235/104433643-avatar.jpg",
+            "spec": {
+                "name": "Subtlety",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-subtlety",
+                "icon": "ability_stealth",
+                "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Mearganth",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 92,
+            "achievementPoints": 7820,
+            "thumbnail": "emerald-dream/223/112415711-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Mearganthum",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 9,
+            "gender": 0,
+            "level": 91,
+            "achievementPoints": 7820,
+            "thumbnail": "emerald-dream/33/112459041-avatar.jpg",
+            "spec": {
+                "name": "Demonology",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-demonology",
+                "icon": "spell_shadow_metamorphosis",
+                "description": "A master of demonic magic who transforms into a demon and compels demonic powers to aid him.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Beardikpunch",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/197/113213381-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Shectako",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/255/113472767-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Meerganthius",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 8,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 6845,
+            "thumbnail": "emerald-dream/122/114195834-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Renitankstud",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4430,
+            "thumbnail": "emerald-dream/214/114454998-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Doombledore",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6370,
+            "thumbnail": "emerald-dream/84/115436884-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Mordios",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 11365,
+            "thumbnail": "emerald-dream/208/115609296-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Hydobud",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8265,
+            "thumbnail": "emerald-dream/3/116622339-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Unhølydiver",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4020,
+            "thumbnail": "emerald-dream/49/116977713-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Sevyrn",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8175,
+            "thumbnail": "emerald-dream/179/117974451-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Gidëon",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 5,
+            "gender": 0,
+            "level": 91,
+            "achievementPoints": 10245,
+            "thumbnail": "emerald-dream/95/118137695-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Waxitnig",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 2,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8600,
+            "thumbnail": "emerald-dream/2/118228226-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Avury",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10295,
+            "thumbnail": "emerald-dream/206/118229198-avatar.jpg",
+            "spec": {
+                "name": "Holy",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-holy",
+                "icon": "spell_holy_guardianspirit",
+                "description": "A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Loreleì",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 10285,
+            "thumbnail": "emerald-dream/241/118229233-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Grouchfist",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14455,
+            "thumbnail": "emerald-dream/203/118419915-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Grouch",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14450,
+            "thumbnail": "emerald-dream/67/118901827-avatar.jpg",
+            "spec": {
+                "name": "Enhancement",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-enhancement",
+                "icon": "spell_shaman_improvedstormstrike",
+                "description": "A totemic warrior who strikes foes with weapons imbued with elemental power.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 1
+    }, {
+        "character": {
+            "name": "Mynewname",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/103/119809127-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Orcanne",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10640,
+            "thumbnail": "emerald-dream/150/120613782-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 1
+    }, {
+        "character": {
+            "name": "Grouchform",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14450,
+            "thumbnail": "emerald-dream/42/120869674-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Grouchstink",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14455,
+            "thumbnail": "emerald-dream/173/122090157-avatar.jpg",
+            "spec": {
+                "name": "Affliction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-affliction",
+                "icon": "spell_shadow_deathcoil",
+                "description": "A master of shadow magic who specializes in drains and damage-over-time spells.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Ellieda",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 10,
+            "gender": 1,
+            "level": 91,
+            "achievementPoints": 10245,
+            "thumbnail": "emerald-dream/227/127176163-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Barsuk",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 9,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10010,
+            "thumbnail": "emerald-dream/181/129548981-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Ojbect",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9625,
+            "thumbnail": "emerald-dream/25/133563673-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-shaman-restoration",
+                "icon": "spell_nature_magicimmunity",
+                "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Necrocomicon",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 5435,
+            "thumbnail": "emerald-dream/11/133570059-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Kemare",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 15960,
+            "thumbnail": "emerald-dream/32/133599520-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Exg",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 12700,
+            "thumbnail": "emerald-dream/186/133629114-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Juvo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 11600,
+            "thumbnail": "emerald-dream/76/133629516-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Sangrim",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 98,
+            "achievementPoints": 3535,
+            "thumbnail": "emerald-dream/164/133632932-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Jabberwock",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 13630,
+            "thumbnail": "emerald-dream/65/133655105-avatar.jpg",
+            "spec": {
+                "name": "Holy",
+                "role": "HEALING",
+                "backgroundImage": "bg-paladin-holy",
+                "icon": "spell_holy_holybolt",
+                "description": "Invokes the power of the Light to protect and to heal.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Imcoming",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4895,
+            "thumbnail": "emerald-dream/125/133675645-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Miyrielle",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 9,
+            "gender": 1,
+            "level": 12,
+            "achievementPoints": 11200,
+            "thumbnail": "emerald-dream/147/133703827-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Saethren",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 15950,
+            "thumbnail": "emerald-dream/64/133902656-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Cosbytron",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 2,
+            "gender": 0,
+            "level": 64,
+            "achievementPoints": 5670,
+            "thumbnail": "emerald-dream/15/134073359-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Danvill",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4135,
+            "thumbnail": "emerald-dream/92/134392668-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Deathbycosby",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6070,
+            "thumbnail": "emerald-dream/89/134442585-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Futurestate",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 97,
+            "achievementPoints": 6070,
+            "thumbnail": "emerald-dream/136/134594184-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Edrani",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10010,
+            "thumbnail": "emerald-dream/76/134795596-avatar.jpg",
+            "spec": {
+                "name": "Survival",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-survival",
+                "icon": "ability_hunter_camouflage",
+                "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Jabberwocky",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 13630,
+            "thumbnail": "emerald-dream/221/134925789-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Aruvan",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 11600,
+            "thumbnail": "emerald-dream/114/134948978-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Tiago",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10010,
+            "thumbnail": "emerald-dream/16/135015696-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Moonsword",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9625,
+            "thumbnail": "emerald-dream/187/135027387-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Gilgamersh",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8850,
+            "thumbnail": "emerald-dream/93/135096925-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Kamicosby",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 6045,
+            "thumbnail": "emerald-dream/144/135270288-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Noralem",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 15960,
+            "thumbnail": "emerald-dream/118/135272822-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Orrazib",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 7,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/152/135322520-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Illumination",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 30,
+            "achievementPoints": 9485,
+            "thumbnail": "emerald-dream/161/135328673-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Grouchstomp",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14450,
+            "thumbnail": "emerald-dream/113/135434865-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Josiah",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8160,
+            "thumbnail": "emerald-dream/212/135487444-avatar.jpg",
+            "spec": {
+                "name": "Holy",
+                "role": "HEALING",
+                "backgroundImage": "bg-paladin-holy",
+                "icon": "spell_holy_holybolt",
+                "description": "Invokes the power of the Light to protect and to heal.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Adephylia",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 2,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 11600,
+            "thumbnail": "emerald-dream/111/135502191-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Vangetsu",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 11600,
+            "thumbnail": "emerald-dream/180/135502260-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Zaksul",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 8,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/246/135504630-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kullrreg",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7610,
+            "thumbnail": "emerald-dream/32/135535648-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Vargur",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/48/135554352-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike his opponents down.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Tanteric",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 4265,
+            "thumbnail": "emerald-dream/2/135577858-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Pawladean",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/40/135616552-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Calcan",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 26,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7910,
+            "thumbnail": "emerald-dream/35/135618851-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Memoire",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 2,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14335,
+            "thumbnail": "emerald-dream/9/135626249-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Siduri",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/41/135668777-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Fudd",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8170,
+            "thumbnail": "emerald-dream/54/135703606-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Lxg",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 12700,
+            "thumbnail": "emerald-dream/102/135806310-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Anticleia",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/78/135822670-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Snoopkin",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/204/135938252-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Radiate",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9645,
+            "thumbnail": "emerald-dream/204/136114380-avatar.jpg",
+            "spec": {
+                "name": "Mistweaver",
+                "role": "HEALING",
+                "backgroundImage": "bg-monk-mistweaver",
+                "icon": "spell_monk_mistweaver_spec",
+                "description": "A healer who mixes traditional herbal medicine with Pandaren martial arts.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Meswell",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 3210,
+            "thumbnail": "emerald-dream/10/136149002-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Lyter",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 2800,
+            "thumbnail": "emerald-dream/11/136192523-avatar.jpg",
+            "spec": {
+                "name": "Unholy",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-unholy",
+                "icon": "spell_deathknight_unholypresence",
+                "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Letyr",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 95,
+            "achievementPoints": 2615,
+            "thumbnail": "emerald-dream/212/136329172-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Fingall",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 21860,
+            "thumbnail": "emerald-dream/135/136367239-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Herroprz",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 4905,
+            "thumbnail": "emerald-dream/180/136370612-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Quickshot",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7715,
+            "thumbnail": "emerald-dream/120/136448632-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Maxrocknroll",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 2,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 4905,
+            "thumbnail": "emerald-dream/216/136453336-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Evolutionary",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 5390,
+            "thumbnail": "emerald-dream/246/136453366-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Aliany",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14335,
+            "thumbnail": "emerald-dream/45/136470061-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Dairyfairy",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 78,
+            "achievementPoints": 2740,
+            "thumbnail": "emerald-dream/85/136517717-avatar.jpg",
+            "spec": {
+                "name": "Guardian",
+                "role": "TANK",
+                "backgroundImage": "bg-druid-bear",
+                "icon": "ability_racial_bearform",
+                "description": "Takes on the form of a mighty bear to absorb damage and protect allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Milton",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 5,
+            "gender": 0,
+            "level": 60,
+            "achievementPoints": 3220,
+            "thumbnail": "emerald-dream/239/136546799-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Kitsùne",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8175,
+            "thumbnail": "emerald-dream/128/136584576-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Biglecowski",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 53,
+            "achievementPoints": 5195,
+            "thumbnail": "emerald-dream/62/136864574-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Trotzig",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 21860,
+            "thumbnail": "emerald-dream/1/136936449-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Monjecandela",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 150,
+            "thumbnail": "emerald-dream/185/136960697-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Proskovya",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 1,
+            "level": 67,
+            "achievementPoints": 6835,
+            "thumbnail": "emerald-dream/39/137015591-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kungfoomoo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 6,
+            "gender": 0,
+            "level": 66,
+            "achievementPoints": 8820,
+            "thumbnail": "emerald-dream/154/137106074-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Foaiur",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 4830,
+            "thumbnail": "emerald-dream/142/137106574-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Mortalitäs",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7225,
+            "thumbnail": "emerald-dream/78/137243470-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Bytizzle",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 7205,
+            "thumbnail": "emerald-dream/210/137343698-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Spark",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9550,
+            "thumbnail": "emerald-dream/251/137354747-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Recnac",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 9,
+            "gender": 1,
+            "level": 14,
+            "achievementPoints": 9665,
+            "thumbnail": "emerald-dream/80/137444688-avatar.jpg",
+            "spec": {
+                "name": "Affliction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-affliction",
+                "icon": "spell_shadow_deathcoil",
+                "description": "A master of shadow magic who specializes in drains and damage-over-time spells.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Suraki",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 13630,
+            "thumbnail": "emerald-dream/31/137462303-avatar.jpg",
+            "spec": {
+                "name": "Mistweaver",
+                "role": "HEALING",
+                "backgroundImage": "bg-monk-mistweaver",
+                "icon": "spell_monk_mistweaver_spec",
+                "description": "A healer who mixes traditional herbal medicine with Pandaren martial arts.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Awesomosis",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 6,
+            "gender": 0,
+            "level": 45,
+            "achievementPoints": 665,
+            "thumbnail": "emerald-dream/63/137795391-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Lagune",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6235,
+            "thumbnail": "emerald-dream/100/137798756-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Gupps",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 8,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 2615,
+            "thumbnail": "emerald-dream/53/137832245-avatar.jpg",
+            "spec": {
+                "name": "Enhancement",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-enhancement",
+                "icon": "spell_shaman_improvedstormstrike",
+                "description": "A totemic warrior who strikes foes with weapons imbued with elemental power.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Lagoons",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 7,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/30/137838878-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Lagoonadin",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 93,
+            "achievementPoints": 6210,
+            "thumbnail": "emerald-dream/125/137907069-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Plinkz",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 12975,
+            "thumbnail": "emerald-dream/207/137984463-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Spellstutter",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 6915,
+            "thumbnail": "emerald-dream/57/137987129-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Shazhar",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 0,
+            "level": 64,
+            "achievementPoints": 6915,
+            "thumbnail": "emerald-dream/149/138008981-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Koxuatel",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 0,
+            "level": 91,
+            "achievementPoints": 160,
+            "thumbnail": "emerald-dream/8/138016008-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Melisady",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8545,
+            "thumbnail": "emerald-dream/77/138017101-avatar.jpg",
+            "spec": {
+                "name": "Affliction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-affliction",
+                "icon": "spell_shadow_deathcoil",
+                "description": "A master of shadow magic who specializes in drains and damage-over-time spells.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Zerøchance",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14025,
+            "thumbnail": "emerald-dream/134/138024070-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kenjar",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 8,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/46/138024750-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Calaria",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 10,
+            "gender": 1,
+            "level": 8,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/172/138025388-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Ankiala",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 18,
+            "achievementPoints": 5015,
+            "thumbnail": "emerald-dream/80/138027088-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Comradeboots",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14205,
+            "thumbnail": "emerald-dream/92/138531420-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve her opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Fellash",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 12975,
+            "thumbnail": "emerald-dream/20/138680596-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 1
+    }, {
+        "character": {
+            "name": "Comradeangel",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7890,
+            "thumbnail": "emerald-dream/24/138710296-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Sote",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8410,
+            "thumbnail": "emerald-dream/117/138724981-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Fumonchu",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 8,
+            "gender": 0,
+            "level": 40,
+            "achievementPoints": 11530,
+            "thumbnail": "emerald-dream/138/138741130-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Gaiasteak",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 13,
+            "achievementPoints": 7840,
+            "thumbnail": "emerald-dream/64/138761280-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Pinesofrome",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 62,
+            "achievementPoints": 4930,
+            "thumbnail": "emerald-dream/79/138785871-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Pinesofromes",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 5195,
+            "thumbnail": "emerald-dream/72/138794312-avatar.jpg",
+            "spec": {
+                "name": "Fire",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-fire",
+                "icon": "spell_fire_firebolt02",
+                "description": "Ignite enemies with balls of fire and combustive flames.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Jibbajabba",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 13630,
+            "thumbnail": "emerald-dream/164/138820772-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 0
+    }, {
+        "character": {
+            "name": "Inkunen",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 1695,
+            "thumbnail": "emerald-dream/81/138825297-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Blaptalos",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 6,
+            "gender": 0,
+            "level": 12,
+            "achievementPoints": 1695,
+            "thumbnail": "emerald-dream/225/138844641-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Zerøchi",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14025,
+            "thumbnail": "emerald-dream/33/138847777-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Justabaker",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 920,
+            "thumbnail": "emerald-dream/217/138943705-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Mcthinnmint",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/134/138968454-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Rochardtotem",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8820,
+            "thumbnail": "emerald-dream/23/139099671-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Shneakers",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 1,
+            "level": 53,
+            "achievementPoints": 7250,
+            "thumbnail": "emerald-dream/144/139141520-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Moonbootz",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 10,
+            "gender": 1,
+            "level": 31,
+            "achievementPoints": 13840,
+            "thumbnail": "emerald-dream/247/139141623-avatar.jpg",
+            "spec": {
+                "name": "Survival",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-survival",
+                "icon": "ability_hunter_camouflage",
+                "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Foomanbrew",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 1,
+            "level": 86,
+            "achievementPoints": 4975,
+            "thumbnail": "emerald-dream/250/139142138-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Zerøshift",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14025,
+            "thumbnail": "emerald-dream/79/139211599-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Budunk",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 3260,
+            "thumbnail": "emerald-dream/13/139576589-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Slott",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13975,
+            "thumbnail": "emerald-dream/31/139718687-avatar.jpg",
+            "spec": {
+                "name": "Mistweaver",
+                "role": "HEALING",
+                "backgroundImage": "bg-monk-mistweaver",
+                "icon": "spell_monk_mistweaver_spec",
+                "description": "A healer who mixes traditional herbal medicine with Pandaren martial arts.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Ikarus",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 13630,
+            "thumbnail": "emerald-dream/196/139739332-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Zerøblade",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14025,
+            "thumbnail": "emerald-dream/104/139821672-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Thisjerk",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 5,
+            "gender": 0,
+            "level": 31,
+            "achievementPoints": 11470,
+            "thumbnail": "emerald-dream/246/139823094-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Ostero",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9130,
+            "thumbnail": "emerald-dream/25/139957529-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Meruri",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 9,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 7005,
+            "thumbnail": "emerald-dream/78/139957582-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Wallington",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6690,
+            "thumbnail": "emerald-dream/189/139957949-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Artunian",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 5180,
+            "thumbnail": "emerald-dream/222/139970270-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Disengaged",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 10,
+            "gender": 1,
+            "level": 34,
+            "achievementPoints": 7595,
+            "thumbnail": "emerald-dream/177/139996337-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Shachin",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9130,
+            "thumbnail": "emerald-dream/119/140010103-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Uplifty",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/181/140020917-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Pwnjabba",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10155,
+            "thumbnail": "emerald-dream/171/140165035-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Blackmagics",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 10,
+            "gender": 1,
+            "level": 43,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/29/140459037-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Discogodo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 8425,
+            "thumbnail": "emerald-dream/58/140459066-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Hottub",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14060,
+            "thumbnail": "emerald-dream/248/140502776-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Kazuha",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 5465,
+            "thumbnail": "emerald-dream/131/140544643-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Machaira",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4205,
+            "thumbnail": "emerald-dream/67/140545091-avatar.jpg",
+            "spec": {
+                "name": "Unholy",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-unholy",
+                "icon": "spell_deathknight_unholypresence",
+                "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Exoexoexoexo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 5,
+            "gender": 0,
+            "level": 91,
+            "achievementPoints": 3800,
+            "thumbnail": "emerald-dream/133/140554373-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Icycoldballs",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14060,
+            "thumbnail": "emerald-dream/54/140579126-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Satus",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 0,
+            "level": 15,
+            "achievementPoints": 8670,
+            "thumbnail": "emerald-dream/90/140587098-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Manmodegodo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 1,
+            "level": 91,
+            "achievementPoints": 8425,
+            "thumbnail": "emerald-dream/136/140671624-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Unholycrap",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 0,
+            "level": 72,
+            "achievementPoints": 7855,
+            "thumbnail": "emerald-dream/90/140684890-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Ohexoyes",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 84,
+            "achievementPoints": 3800,
+            "thumbnail": "emerald-dream/50/140710450-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Trollyhunter",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 8,
+            "gender": 1,
+            "level": 84,
+            "achievementPoints": 8365,
+            "thumbnail": "emerald-dream/116/140719988-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Stealursol",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 10,
+            "gender": 0,
+            "level": 92,
+            "achievementPoints": 695,
+            "thumbnail": "emerald-dream/192/140757184-avatar.jpg",
+            "spec": {
+                "name": "Mistweaver",
+                "role": "HEALING",
+                "backgroundImage": "bg-monk-mistweaver",
+                "icon": "spell_monk_mistweaver_spec",
+                "description": "A healer who mixes traditional herbal medicine with Pandaren martial arts.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "ßøjangles",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 6,
+            "gender": 0,
+            "level": 81,
+            "achievementPoints": 10305,
+            "thumbnail": "emerald-dream/98/140773730-avatar.jpg",
+            "spec": {
+                "name": "Unholy",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-unholy",
+                "icon": "spell_deathknight_unholypresence",
+                "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Grouchstew",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14455,
+            "thumbnail": "emerald-dream/129/140792193-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Finrur",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6300,
+            "thumbnail": "emerald-dream/244/140806644-avatar.jpg",
+            "spec": {
+                "name": "Holy",
+                "role": "HEALING",
+                "backgroundImage": "bg-paladin-holy",
+                "icon": "spell_holy_holybolt",
+                "description": "Invokes the power of the Light to protect and to heal.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Emothecow",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 7,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/60/140806972-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Stonetotemic",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9140,
+            "thumbnail": "emerald-dream/67/140807747-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-shaman-restoration",
+                "icon": "spell_nature_magicimmunity",
+                "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Sneakyemo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 9,
+            "gender": 0,
+            "level": 32,
+            "achievementPoints": 9490,
+            "thumbnail": "emerald-dream/106/140844650-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Moogooguypan",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 14025,
+            "thumbnail": "emerald-dream/186/140848058-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Indubidubly",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 47,
+            "achievementPoints": 10070,
+            "thumbnail": "emerald-dream/139/140901259-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Hyasinthe",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 4175,
+            "thumbnail": "emerald-dream/122/140915578-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Richardts",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9175,
+            "thumbnail": "emerald-dream/78/140915790-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 1
+    }, {
+        "character": {
+            "name": "Hektor",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6035,
+            "thumbnail": "emerald-dream/60/140923452-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Gilgywartard",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 1,
+            "race": 10,
+            "gender": 0,
+            "level": 19,
+            "achievementPoints": 8670,
+            "thumbnail": "emerald-dream/28/141104156-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard himself and his allies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Haidus",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 7,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6300,
+            "thumbnail": "emerald-dream/193/141159873-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-shaman-restoration",
+                "icon": "spell_nature_magicimmunity",
+                "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Nightfall",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 8,
+            "race": 5,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9620,
+            "thumbnail": "emerald-dream/144/141229712-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Markstone",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 1585,
+            "thumbnail": "emerald-dream/112/141269872-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 7
+    }, {
+        "character": {
+            "name": "Koraå",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 26,
+            "gender": 1,
+            "level": 70,
+            "achievementPoints": 3230,
+            "thumbnail": "emerald-dream/246/141270006-avatar.jpg",
+            "spec": {
+                "name": "Mistweaver",
+                "role": "HEALING",
+                "backgroundImage": "bg-monk-mistweaver",
+                "icon": "spell_monk_mistweaver_spec",
+                "description": "A healer who mixes traditional herbal medicine with Pandaren martial arts.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Auynaga",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 1,
+            "level": 67,
+            "achievementPoints": 14980,
+            "thumbnail": "emerald-dream/66/141287746-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Mestia",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 1,
+            "level": 26,
+            "achievementPoints": 155,
+            "thumbnail": "emerald-dream/215/141318103-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Erikkarlsson",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 6,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 1455,
+            "thumbnail": "emerald-dream/23/141352727-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Boomaka",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 0,
+            "level": 6,
+            "achievementPoints": 0,
+            "thumbnail": "emerald-dream/249/141356537-avatar.jpg",
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Shtfckcnt",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 2,
+            "gender": 0,
+            "level": 69,
+            "achievementPoints": 10915,
+            "thumbnail": "emerald-dream/73/141419337-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Farthammer",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 40,
+            "achievementPoints": 320,
+            "thumbnail": "emerald-dream/46/141483054-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kronikz",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 0,
+            "level": 25,
+            "achievementPoints": 8355,
+            "thumbnail": "emerald-dream/252/141495548-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Skítzo",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 8515,
+            "thumbnail": "emerald-dream/226/141541090-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Büttress",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 9,
+            "race": 5,
+            "gender": 1,
+            "level": 55,
+            "achievementPoints": 10285,
+            "thumbnail": "emerald-dream/84/141564500-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Sinte",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 4,
+            "race": 10,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 14335,
+            "thumbnail": "emerald-dream/170/141566122-avatar.jpg",
+            "spec": {
+                "name": "Subtlety",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-subtlety",
+                "icon": "ability_stealth",
+                "description": "A dark stalker who leaps from the shadows to ambush his unsuspecting prey.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 2
+    }, {
+        "character": {
+            "name": "Zhetan",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 2,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10115,
+            "thumbnail": "emerald-dream/5/141653509-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 6
+    }, {
+        "character": {
+            "name": "Arlesienne",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 6,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 4125,
+            "thumbnail": "emerald-dream/72/141817672-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Drjenkem",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 5,
+            "race": 5,
+            "gender": 0,
+            "level": 10,
+            "achievementPoints": 275,
+            "thumbnail": "emerald-dream/228/141876452-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Houyninja",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 10,
+            "race": 5,
+            "gender": 0,
+            "level": 10,
+            "achievementPoints": 7700,
+            "thumbnail": "emerald-dream/250/141876474-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }, {
+        "character": {
+            "name": "Windracer",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 11,
+            "race": 8,
+            "gender": 1,
+            "level": 97,
+            "achievementPoints": 7720,
+            "thumbnail": "emerald-dream/80/141960528-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Hadrix",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 3,
+            "race": 8,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6300,
+            "thumbnail": "emerald-dream/225/142092001-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 9
+    }, {
+        "character": {
+            "name": "Kerchoff",
+            "realm": "Emerald Dream",
+            "battlegroup": "Shadowburn",
+            "class": 2,
+            "race": 10,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 9175,
+            "thumbnail": "emerald-dream/62/142246206-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield herself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Nightfall",
+            "guildRealm": "Emerald Dream"
+        },
+        "rank": 8
+    }],
+    "emblem": {
+        "icon": 193,
+        "iconColor": "ffb1b8b1",
+        "border": 4,
+        "borderColor": "ff00317c",
+        "backgroundColor": "ff232323"
+    }
+}

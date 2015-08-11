@@ -1,0 +1,458 @@
+{
+    "lastModified": 1437449186000,
+    "name": "Ojbect",
+    "realm": "Emerald Dream",
+    "battlegroup": "Shadowburn",
+    "class": 7,
+    "race": 2,
+    "gender": 0,
+    "level": 100,
+    "achievementPoints": 9625,
+    "thumbnail": "emerald-dream/25/133563673-avatar.jpg",
+    "calcClass": "W",
+    "items": {
+        "averageItemLevel": 705,
+        "averageItemLevelEquipped": 700,
+        "head": {
+            "id": 124297,
+            "name": "Crown of the Living Mountain",
+            "icon": "inv_helm_mail_raidshaman_p_01",
+            "quality": 4,
+            "itemLevel": 710,
+            "tooltipParams": {
+                "set": [124297, 124303],
+                "transmogItem": 45610,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 194
+            }, {
+                "stat": 73,
+                "amount": 352
+            }, {
+                "stat": 36,
+                "amount": 274
+            }, {
+                "stat": 7,
+                "amount": 528
+            }],
+            "armor": 210,
+            "context": "raid-heroic",
+            "bonusLists": [566]
+        },
+        "neck": {
+            "id": 113872,
+            "name": "Gruul's Lip Ring",
+            "icon": "inv_6_0raid_necklace_1d",
+            "quality": 4,
+            "itemLevel": 685,
+            "tooltipParams": {
+                "enchant": 5319,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 109
+            }, {
+                "stat": 5,
+                "amount": 157
+            }, {
+                "stat": 36,
+                "amount": 97
+            }, {
+                "stat": 7,
+                "amount": 235
+            }],
+            "armor": 0,
+            "context": "raid-heroic",
+            "bonusLists": [566]
+        },
+        "shoulder": {
+            "id": 115576,
+            "name": "Windspeaker's Mantle",
+            "icon": "inv_shoulder_mail_raidshaman_o_01",
+            "quality": 4,
+            "itemLevel": 685,
+            "tooltipParams": {
+                "set": [115576, 115578],
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 150
+            }, {
+                "stat": 32,
+                "amount": 122
+            }, {
+                "stat": 73,
+                "amount": 209
+            }, {
+                "stat": 7,
+                "amount": 314
+            }],
+            "armor": 174,
+            "context": "raid-heroic",
+            "bonusLists": [566]
+        },
+        "back": {
+            "id": 124139,
+            "name": "Polymorphic Cloak of Absorption",
+            "icon": "inv_cape_felfireraid_d_02",
+            "quality": 4,
+            "itemLevel": 705,
+            "tooltipParams": {
+                "enchant": 5312,
+                "tinker": 4897,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 32,
+                "amount": 99
+            }, {
+                "stat": 5,
+                "amount": 189
+            }, {
+                "stat": 6,
+                "amount": 153
+            }, {
+                "stat": 7,
+                "amount": 283
+            }],
+            "armor": 75,
+            "context": "raid-heroic",
+            "bonusLists": [566]
+        },
+        "chest": {
+            "id": 124303,
+            "name": "Robe of the Living Mountain",
+            "icon": "inv_robe_mail_raidshaman_p_01",
+            "quality": 4,
+            "itemLevel": 695,
+            "tooltipParams": {
+                "gem0": 115812,
+                "set": [124297, 124303],
+                "transmogItem": 118367,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 151
+            }, {
+                "stat": 49,
+                "amount": 256
+            }, {
+                "stat": 73,
+                "amount": 306
+            }, {
+                "stat": 7,
+                "amount": 459
+            }],
+            "armor": 242,
+            "context": "raid-normal",
+            "bonusLists": [563]
+        },
+        "wrist": {
+            "id": 124312,
+            "name": "Bloody Berserker's Bracers",
+            "icon": "inv_bracer_mail_raidhunter_p_01",
+            "quality": 4,
+            "itemLevel": 705,
+            "tooltipParams": {
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 147
+            }, {
+                "stat": 40,
+                "amount": 104
+            }, {
+                "stat": 73,
+                "amount": 189
+            }, {
+                "stat": 7,
+                "amount": 283
+            }],
+            "armor": 111,
+            "context": "raid-heroic",
+            "bonusLists": [566]
+        },
+        "hands": {
+            "id": 115578,
+            "name": "Windspeaker's Handwraps",
+            "icon": "inv_glove_mail_raidshaman_o_01",
+            "quality": 4,
+            "itemLevel": 691,
+            "tooltipParams": {
+                "gem0": 115813,
+                "set": [115576, 115578],
+                "transmogItem": 85290,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 129
+            }, {
+                "stat": 73,
+                "amount": 221
+            }, {
+                "stat": 36,
+                "amount": 158
+            }, {
+                "stat": 7,
+                "amount": 332
+            }],
+            "armor": 149,
+            "context": "raid-heroic",
+            "bonusLists": [561, 564, 566]
+        },
+        "waist": {
+            "id": 113955,
+            "name": "Grenadier's Belt",
+            "icon": "inv_belt_mail_raidhuntermythic_o_01",
+            "quality": 4,
+            "itemLevel": 700,
+            "tooltipParams": {
+                "tinker": 4223,
+                "transmogItem": 113813,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 163
+            }, {
+                "stat": 49,
+                "amount": 157
+            }, {
+                "stat": 73,
+                "amount": 241
+            }, {
+                "stat": 7,
+                "amount": 361
+            }],
+            "armor": 139,
+            "context": "raid-mythic",
+            "bonusLists": [567]
+        },
+        "legs": {
+            "id": 124298,
+            "name": "Iron Dragoon's Pantaloons",
+            "icon": "inv_pant_mail_raidhunter_p_01",
+            "quality": 4,
+            "itemLevel": 705,
+            "tooltipParams": {
+                "gem0": 127416,
+                "transmogItem": 85292,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 40,
+                "amount": 310
+            }, {
+                "stat": 73,
+                "amount": 336
+            }, {
+                "stat": 36,
+                "amount": 137
+            }, {
+                "stat": 7,
+                "amount": 504
+            }],
+            "armor": 221,
+            "context": "raid-heroic",
+            "bonusLists": [564, 566]
+        },
+        "feet": {
+            "id": 124288,
+            "name": "Unhallowed Voidlink Boots",
+            "icon": "inv_boot_mail_raidhunter_p_01",
+            "quality": 4,
+            "itemLevel": 710,
+            "tooltipParams": {
+                "transmogItem": 7542,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 146
+            }, {
+                "stat": 62,
+                "amount": 151
+            }, {
+                "stat": 73,
+                "amount": 264
+            }, {
+                "stat": 36,
+                "amount": 206
+            }, {
+                "stat": 7,
+                "amount": 396
+            }],
+            "armor": 178,
+            "context": "raid-heroic",
+            "bonusLists": [41, 566]
+        },
+        "finger1": {
+            "id": 113901,
+            "name": "Six-Eyed Band",
+            "icon": "inv_ringwod_d_2",
+            "quality": 4,
+            "itemLevel": 700,
+            "tooltipParams": {
+                "gem0": 115812,
+                "enchant": 5326,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 126
+            }, {
+                "stat": 5,
+                "amount": 180
+            }, {
+                "stat": 6,
+                "amount": 111
+            }, {
+                "stat": 7,
+                "amount": 271
+            }],
+            "armor": 0,
+            "context": "raid-mythic",
+            "bonusLists": [565, 567]
+        },
+        "finger2": {
+            "id": 118309,
+            "name": "Spellbound Runic Band of Infinite Preservation",
+            "icon": "inv_misc_6oring_greenlv4",
+            "quality": 4,
+            "itemLevel": 715,
+            "tooltipParams": {
+                "enchant": 5326,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 5,
+                "amount": 207
+            }, {
+                "stat": 6,
+                "amount": 152
+            }, {
+                "stat": 36,
+                "amount": 115
+            }, {
+                "stat": 7,
+                "amount": 311
+            }],
+            "armor": 0,
+            "context": "quest-reward",
+            "bonusLists": []
+        },
+        "trinket1": {
+            "id": 113986,
+            "name": "Auto-Repairing Autoclave",
+            "icon": "inv_misc_trinket6oih_orb3",
+            "quality": 4,
+            "itemLevel": 700,
+            "tooltipParams": {
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 6,
+                "amount": 786
+            }],
+            "armor": 0,
+            "context": "raid-mythic",
+            "bonusLists": [567]
+        },
+        "trinket2": {
+            "id": 124233,
+            "name": "Demonic Phylactery",
+            "icon": "inv_6_2raid_trinket_1a",
+            "quality": 4,
+            "itemLevel": 701,
+            "tooltipParams": {
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 5,
+                "amount": 300
+            }, {
+                "stat": 36,
+                "amount": 300
+            }],
+            "armor": 0,
+            "context": "raid-normal",
+            "bonusLists": [560]
+        },
+        "mainHand": {
+            "id": 124369,
+            "name": "Mindscythe of the Legion",
+            "icon": "inv_hand_1h_felfireraid_d_01",
+            "quality": 4,
+            "itemLevel": 700,
+            "tooltipParams": {
+                "enchant": 5335,
+                "transmogItem": 118395,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 115
+            }, {
+                "stat": 5,
+                "amount": 137
+            }, {
+                "stat": 36,
+                "amount": 68
+            }, {
+                "stat": 7,
+                "amount": 206
+            }, {
+                "stat": 45,
+                "amount": 1834
+            }],
+            "armor": 0,
+            "weaponInfo": {
+                "damage": {
+                    "min": 814,
+                    "max": 1515,
+                    "exactMin": 814.0,
+                    "exactMax": 1514.0
+                },
+                "weaponSpeed": 2.6,
+                "dps": 447.69232
+            },
+            "context": "raid-normal",
+            "bonusLists": []
+        },
+        "offHand": {
+            "id": 113946,
+            "name": "Heart of the Clefthoof",
+            "icon": "inv_shield_draenorraid_d_04",
+            "quality": 4,
+            "itemLevel": 700,
+            "tooltipParams": {
+                "transmogItem": 43085,
+                "timewalkerLevel": 100
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 120
+            }, {
+                "stat": 5,
+                "amount": 180
+            }, {
+                "stat": 36,
+                "amount": 120
+            }, {
+                "stat": 7,
+                "amount": 271
+            }],
+            "armor": 795,
+            "context": "raid-mythic",
+            "bonusLists": [567]
+        }
+    },
+    "totalHonorableKills": 7290
+}
