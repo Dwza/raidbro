@@ -33,7 +33,7 @@ let GuildSummary = React.createClass({
         if ('number' === typeof countShowings && 0 <= countShowings) {
           attendance = countShowings + '/' + totalShowings;
           if (countShowings === totalShowings) {
-            attendance = <span style={{color: 'green'}}> {attendance} </span>;
+            attendance = <span style={{color: 'green', 'font-style': 'bold'}}> {attendance} </span>;
           }
           //TODO color code attendance
         }
@@ -46,12 +46,11 @@ let GuildSummary = React.createClass({
           return 'string' === typeof context && -1 !== context.indexOf('raid') && -1 === context.indexOf('finder');
         })
         .map(function (i) {
-          console.log('AAA' + i)
           let href = "http://www.wowhead.com/item=" + i.itemId;
           return (
             <div>
               <a target="_blank" href={href} rel={'bonus=' + i.bonusLists.join(':')}>{i.timestamp}</a>
-              {i.age} days ago
+              &nbsp; {i.age} days ago
               <br/>
             </div>
           );
@@ -111,14 +110,16 @@ let GuildSummary = React.createClass({
             "bonusLists": [
                 642,
                 643
-            ]
+            ],
+            age: 4
           },
           {
             "type": "LOOT",
             "timestamp": 1438115240000,
             "itemId": 125228,
             "context": "vendor",
-            "bonusLists": []
+            "bonusLists": [],
+            age: 3
           }
         ]
       }
@@ -139,13 +140,43 @@ let GuildSummary = React.createClass({
     self.setState({data: newData});
   },
 
-  getCharacterData: function (region, realm, characterName) {
-    let self = this;
 
-    // 1. ITEM LEVEL
-    $.getJSON(
-      Server.buildUrl('items', region, realm, characterName),
-      function(responseData) {
+  getData: function (props) {
+    self = this;
+
+    let p = props;
+    let realm = p.realm;
+    let region = p.region;
+    let roster = p.roster;
+    let guild = p.guild;
+
+    let length = roster.length;
+
+    // Initialize data first
+    let data = {};
+    roster.forEach(function (element, index, array) {
+      let characterName = element;
+
+      let dude = {
+        "averageItemLevel": 0,
+        "averageItemLevelEquipped": 0,
+        "attendance": '',
+        items: []
+      };
+      data[characterName] = dude;
+    });
+    self.setState({data: data});
+
+
+    // Get data about each player
+    self.getJsonSync(
+      function generatePath(characterName) {
+        let path = Server.buildUrl('items', region, realm, characterName);
+        return path;
+      },
+      function onResponse(characterName, responseData) {
+        //TODO
+
         if (responseData.items && responseData.items.averageItemLevel) {
           let newData = self.state.data;
           let dude = newData[characterName];
@@ -159,7 +190,9 @@ let GuildSummary = React.createClass({
             dude.averageItemLevelEquipped = responseData.items.averageItemLevelEquipped;
           }
           // re-render
-          self.setState({data: newData});
+          self.setState({
+            data: newData
+          });
 
           // 2. RECENT LOOT
           let lootPath = Server.mergeUrlQuery(
@@ -199,54 +232,40 @@ let GuildSummary = React.createClass({
               }
             }
           );
+
         }
         else {
           self.handleItemLevelError(characterName, responseData);
         }
+
+        let progress = self.state.progress + (100 / length);
+        console.log('progress: ' + progress);
+        self.setState({progress: progress});
+
+      },
+      function onFinish() {
+        self.setState({
+          progress: 100
+        });
+      },
+      function onError(characterName, error) {
+        self.handleItemLevelError(characterName, error);
+      },
+      roster,
+      {
+        continueOnError: true
       }
-    ).fail(function(response) {
-      self.handleItemLevelError(characterName, response);
-    });
-  },
-
-  getData: function (props) {
-    self = this;
-
-    let p = props;
-    let realm = p.realm;
-    let region = p.region;
-    let roster = p.roster;
-    let guild = p.guild;
-
-    let data = {};
-    roster.forEach(function (element, index, array) {
-      let characterName = element;
-
-      // Initialize each guild member's info
-      let dude = {
-        "averageItemLevel": 0,
-        "averageItemLevelEquipped": 0,
-        "attendance": '',
-        items: []
-      };
-      data[characterName] = dude;
-    });
-
-    self.setState({data: data});
-
-    // Populate the character information asynchronously
-    for (let characterName in data) {
-      this.getCharacterData(region, realm, characterName);
-    }
-
+    );
   },
 
 
   // Recurse through a list of reports
-  getJsonSync: function (generatePath, processResponse, finish, list) {
+  getJsonSync: function (generatePath, processResponse, finish, handleError, list, options) {
+    let continueOnError = options && options.continueOnError;
+
     let self = this;
 
-    if (!list.length) {
+    if (!Array.isArray(list) || !list.length) {
       finish();
       return;
     }
@@ -256,10 +275,17 @@ let GuildSummary = React.createClass({
     $.getJSON(
       generatePath(current),
       function (responseData) {
-        processResponse(responseData);
-        self.getJsonSync(generatePath, processResponse, finish, list);
+        processResponse(current, responseData);
+        self.getJsonSync(generatePath, processResponse, finish, handleError, list, options);
       }
-    );
+    )
+    .fail(function(response) {
+      handleError(current, response);
+      if (continueOnError) {
+        self.getJsonSync(generatePath, processResponse, finish, handleError, list, options);
+      }
+    })
+    ;
   },
 
 
@@ -297,7 +323,7 @@ let GuildSummary = React.createClass({
               console.log('GET ' + path);
               return path;
             },
-            function onResponse(responseData) {
+            function onResponse(report, responseData) {
               let attendees = responseData.friendlies;
               console.log(responseData);
               if (attendees && Array.isArray(attendees)) {
@@ -320,6 +346,9 @@ let GuildSummary = React.createClass({
                 attendanceReady: true, // Means attendance is ready.
                 attendance: attendance
               });
+            },
+            function onError(report, error) {
+              //TOOD
             },
             reports
           );
@@ -389,7 +418,11 @@ let GuildSummary = React.createClass({
 
 
     let progressBar = null;
-    if ('number' === typeof this.state.progress) {
+    if ('number' === typeof this.state.progress &&
+      100 > this.state.progress &&
+      0 < this.state.progress
+      ) {
+
       progressBar =
         <LinearProgress
           ref="progress"

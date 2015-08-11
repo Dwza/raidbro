@@ -5,6 +5,7 @@ let React = require('react');
 // Material UI
 let {
   AppBar,
+  CircularProgress,
   FlatButton,
   IconButton,
   Snackbar,
@@ -50,6 +51,7 @@ let Main = React.createClass({
 
     // Defaults
     let state = {
+      isSearching: false,
       isSearchVisible: true,
       isSummaryVisible: false,
       roster: [],
@@ -63,8 +65,13 @@ let Main = React.createClass({
   },
 
   //TODO race condition when Search is clicked 2nd time while 1st guild is being displayed.
+  /*
+   * User has submitted a guild, now search for it by querying our API
+   */
   _handleGuildSearch: function (terms) {
-    // User has submitted a guild, now search for it by querying our API
+    this.setState({
+      isSearching: true
+    });
 
     let region = terms.region;
     let guild = terms.guild.capitalize();
@@ -146,10 +153,19 @@ let Main = React.createClass({
     //     iconElementRight: <IconButton><SearchIcon /></IconButton>
     // });
 
+    let searchInProgress = null;
+    if (this.state.isSearching && this.state.isSearchVisible) {
+      searchInProgress =
+        <CircularProgress
+          mode="indeterminate"
+          size={2} />;
+    }
+
     return (
       <div ref="main" style={containerStyle}>
 
         {searchBox}
+        {searchInProgress}
 
         {summaryBox}
 
@@ -159,6 +175,9 @@ let Main = React.createClass({
           action="Search Again"
           onActionTouchTap={this._handleSearchAgain}/>
 
+        <div
+          ref="footer"
+          style={{'paddingBottom': 100}} />
       </div>
     );
   },
