@@ -432,7 +432,7 @@ let GuildSummary = React.createClass({
     return (
       <div>
 
-        <h1> {'<' + this.props.guild + '>'}</h1>
+        <h1> {'<' + this.props.guild + '> ' + this.props.realm} </h1>
 
         {progressBar}
 
