@@ -5,6 +5,7 @@ var dest = './build',
 module.exports = {
   browserSync: {
     server: {
+      port: 7800,
       // We're serving the src folder as well
       // for sass sourcemap linking
       baseDir: [dest, src]
