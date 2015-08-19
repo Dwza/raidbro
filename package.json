@@ -7,7 +7,7 @@
     "url": "https://github.com/sylvanknave/raidbro.git"
   },
   "scripts": {
-    "build": "cp src/www/* ./",
+    "build": "cp build/* ./",
     "start": "gulp"
   },
   "dependencies": {
