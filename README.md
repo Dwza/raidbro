@@ -14,10 +14,21 @@ cd raidbro
 npm install
 ```
 
-Now you can run your local server:
+Run the local server:
 ```
 npm start
 ```
+
+Currently the front-end is a GitHub Page, which means we need to commit the items to the gh-pages branch of the repository.
+```
+cd raidbro
+npm start
+(CTRL + C)
+cp build/* ./
+git add ...
+git commit ...
+```
+
 
 #[Gulp](https://github.com/gulpjs/gulp) Plugins
 
