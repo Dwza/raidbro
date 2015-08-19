@@ -38,4 +38,8 @@ A useful repository that explains how many of gulp's features work and contains 
 ## Notes
 
 Sometimes when we add new links, we gotta refreshLinks()
-http://www.wowhead.com/forums&topic=227864/dynamic-wowhead-tooltips
+- http://www.wowhead.com/forums&topic=227864/dynamic-wowhead-tooltips
+
+Installing NodeJS on Ubuntu
+- https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions
+- http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/

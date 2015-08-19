@@ -9,7 +9,7 @@
   "scripts": {
     "start": "gulp"
   },
-  "devDependencies": {
+  "dependencies": {
     "babelify": "^6.1.2",
     "browser-sync": "^1.8.1",
     "browserify": "^7.0.3",
@@ -21,9 +21,8 @@
     "require-dir": "^0.1.0",
     "underscore": "^1.7.0",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.2.1"
-  },
-  "dependencies": {
+    "watchify": "^2.2.1",
+
     "material-ui": ">=0.8",
     "react": ">=0.13",
     "react-tap-event-plugin": "^0.1.3"
