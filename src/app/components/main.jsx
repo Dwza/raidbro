@@ -45,8 +45,8 @@ let Main = React.createClass({
   getInitialState: function() {
 
     let days = localStorage.getItem('days') || 7;
-    let guild = localStorage.getItem('guild') || 'Midwinter';
-    let realm = localStorage.getItem('realm') || 'Sargeras';
+    let guild = localStorage.getItem('guild') || 'Nightfall';
+    let realm = localStorage.getItem('realm') || 'Emerald Dream';
     let region = localStorage.getItem('region') || 'us';
 
     // Defaults

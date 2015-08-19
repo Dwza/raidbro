@@ -3,8 +3,8 @@ var querystring = require('querystring');
 var Server = {};
 
 // settings
-Server.HOSTNAME = 'localhost';
-Server.PORT = 8800;
+Server.HOSTNAME = 'raidbro-server.herokuapp.com';
+Server.PORT = 80;
 Server.PROTOCOL = 'http';
 
 Server.buildUrl = function (path) {
