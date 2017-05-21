@@ -1,4 +1,4 @@
-# [RaidBro](jorgechen.github.io/raidbro) - WoW Raiding Tool
+# [RaidBro](http://jorgechen.github.io/raidbro) - WoW Raiding Tool
 
 This is a simple tool for guilds to analyze its raiders.  RaidBro provides up-to-date info on your guild, such as a raider's attendance and the gear received since the past weekly reset.
 
